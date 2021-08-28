@@ -1,0 +1,18 @@
+---------------------------
+Using PIL easy python
+----------------------------
+from PIL import Image
+image = Image.open('love') // love is the name of the image in my kernal i have saved as// 
+image
+from numpy import asarray
+data = asarray(image)
+print(data)
+------------------------------
+using deep learning API keras
+------------------------------
+from keras.preprocessing.image import load_img
+from keras.preprocessing.image import img_to_array
+img = load_img("love")
+img
+data = img_to_array(img)
+print(data)
